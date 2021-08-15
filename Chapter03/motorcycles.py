@@ -14,3 +14,9 @@ motorcycles.append("honda")
 motorcycles.append('yamaha')
 motorcycles.append('suzuki')
 motorcycles.append('ducati')
+print(motorcycles)
+
+# Add element by index
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
