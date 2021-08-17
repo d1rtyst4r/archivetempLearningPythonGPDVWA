@@ -29,4 +29,15 @@ print(sorted(cars, reverse=True))
 print("\nHere is the original list:")
 print(cars)
 
+# Reverse list
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("\nHere is the original list:")
+print(cars)
+print("\nHere is the reversed list:")
+cars.reverse()
+print(cars)
+
+# List length
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars))  # method len return list length (integer)
 
