@@ -6,3 +6,10 @@ print(age > 21)
 print(age <= 21)
 print(age >= 21)
 print(age != 21)
+print()
+
+# and/or
+age_01 = 22
+age_02 = 18
+print((age_01 >= 21) and (age_02 >= 21))  # and
+print((age_01 >= 21) or (age_02 >= 21))  # or
