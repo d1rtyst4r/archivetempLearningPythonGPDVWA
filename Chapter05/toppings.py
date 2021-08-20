@@ -36,5 +36,3 @@ if requested_toppings:  # return true if any element is in the list
     print("\nFinished making your pizza.")
 else:
     print('Are you sure you want plain pizza?')
-
-
