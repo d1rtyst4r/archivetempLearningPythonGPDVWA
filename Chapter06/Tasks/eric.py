@@ -5,6 +5,23 @@ eric = {
     'city': 'riga'
 }
 
-for key in eric:
-    print(key + ': ' + str(eric[key]).title())  # key return dictionary key eric[key] return value
+tom = {
+    'first_name': 'tom',
+    'last_name': 'grib',
+    'age': 30,
+    'city': 'liepaja'
+}
+
+rob = {
+    'first_name': 'rob',
+    'last_name': 'bite',
+    'age': 17,
+    'city': 'tallinn'
+}
+
+people = [eric, tom, rob]
+for user in people:
+    for key, value in user.items():
+        print(key.title() + ": " + str(value).title())
+    print()
     
