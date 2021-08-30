@@ -1,8 +1,8 @@
 # Functions
 
-def greet_user():
+def greet_user(username):
     """Print simple greetings"""
-    print("Hello!")
+    print("Hello, " + username.title() + "!")
 
 
-greet_user()
+greet_user("jesse")
