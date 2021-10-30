@@ -1,9 +1,8 @@
 # Task 8-7
 def make_album(artist, album_title, number_of_tracks=''):
+    album = {'artist': artist, 'album title': album_title}
     if number_of_tracks:
-        album = {'artist': artist, 'album title': album_title, 'number of track': number_of_tracks}
-    else:
-        album = {'artist': artist, 'album title': album_title}
+        album['number of track'] = number_of_tracks
     return album
 
 
