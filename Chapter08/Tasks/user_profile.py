@@ -4,7 +4,7 @@ def build_prifile(first, last, **user_info):
     profile['first_name'] = first
     profile['last_name'] = last
     for key, value in user_info.items():
-        profile[key] = str(value)
+        profile[key] = value
     return profile    
 
 user_prifile = build_prifile('ruslans', 'jasinovics', age=36, location='riga', field='IT')
