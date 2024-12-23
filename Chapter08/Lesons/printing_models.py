@@ -7,18 +7,11 @@ def printing_models(unprinted_designs, completed_models):
         completed_models.append(current_design)
 
 
-def show_completed_models(complited_models):
+def show_completed_models(complited_models: object) -> object:
     """Print all models that are done."""
     print("\nThe following models have been printed:")
-    for completed_model in completed_models:
+    for completed_model in complited_models:
         print(completed_model)
 
-
-# List of models that need to be printed
-unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
-completed_models = []
-
-printing_models(unprinted_designs, completed_models)
-show_completed_models(completed_models)
 
 
