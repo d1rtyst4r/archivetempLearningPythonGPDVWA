@@ -15,6 +15,12 @@ class Dog():
 my_dog = Dog("willie", 6)
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years old.")
-
 my_dog.site()
 my_dog.roll_over()
+print()
+
+your_dog = Dog('lucy', 5)
+print("Your dogs name is " + your_dog.name.title() +".")
+print("your dog is " + str(your_dog.age) + "years old.")
+your_dog.roll_over()
+your_dog.site()
