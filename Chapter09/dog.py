@@ -6,12 +6,15 @@ class Dog():
 
     def site(self):
         """Dog site after commnad"""
-        print(self.name.tittle() + " is now sitting.")
+        print(self.name.title() + " is now sitting.")
     def roll_over(self):
         """Dog roll over after command"""
-        print(self.name.tittle() + " is rolled over!")
+        print(self.name.title() + " is rolled over!")
 
 
 my_dog = Dog("willie", 6)
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years old.")
+
+my_dog.site()
+my_dog.roll_over()
