@@ -7,7 +7,6 @@ class ElectricCar(Car):
         super().__init__(make, model, year)
         self.battery_size = Battery()
 
-
 if __name__ == "__main__":
     my_tesla = ElectricCar('tesla', 'model s', 2016)
     print(my_tesla.get_disreptive())
