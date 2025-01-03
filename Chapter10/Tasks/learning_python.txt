@@ -1,0 +1,3 @@
+In python you can create homepages.
+In python you can create games.
+In python you can create AI.
